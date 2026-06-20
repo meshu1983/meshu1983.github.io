@@ -161,29 +161,35 @@ nav a.active {
 }
 
 /* ── Per-card color themes ── */
-#fast-food .card-banner   { background: linear-gradient(135deg, rgba(234,88,12,.18), rgba(249,115,22,.06)); border-bottom: 1px solid rgba(249,115,22,.22); }
-#fast-food .badge         { background: #f97316; color: #fff; }
-#fast-food .price         { color: #fb923c; }
-#fast-food .tag           { background: rgba(249,115,22,.12); color: #fb923c; border: 1px solid rgba(249,115,22,.2); }
-#fast-food:hover          { border-color: rgba(249,115,22,.45); box-shadow: 0 32px 80px rgba(249,115,22,.12); }
+#breakfast .card-banner   { background: linear-gradient(135deg, rgba(234,88,12,.18), rgba(249,115,22,.06)); border-bottom: 1px solid rgba(249,115,22,.22); }
+#breakfast .badge         { background: #f97316; color: #fff; }
+#breakfast .price         { color: #fb923c; }
+#breakfast .tag           { background: rgba(249,115,22,.12); color: #fb923c; border: 1px solid rgba(249,115,22,.2); }
+#breakfast:hover          { border-color: rgba(249,115,22,.45); box-shadow: 0 32px 80px rgba(249,115,22,.12); }
+
+#burger .card-banner      { background: linear-gradient(135deg, rgba(220,38,38,.18), rgba(244,63,94,.06)); border-bottom: 1px solid rgba(244,63,94,.22); }
+#burger .badge            { background: linear-gradient(135deg, #ef4444, #f43f5e); color: #fff; }
+#burger .price            { color: #f87171; }
+#burger .tag              { background: rgba(239,68,68,.12); color: #f87171; border: 1px solid rgba(239,68,68,.2); }
+#burger:hover             { border-color: rgba(239,68,68,.45); box-shadow: 0 32px 80px rgba(239,68,68,.10); }
+
+#pizza .card-banner       { background: linear-gradient(135deg, rgba(124,58,237,.18), rgba(139,92,246,.06)); border-bottom: 1px solid rgba(139,92,246,.22); }
+#pizza .badge             { background: linear-gradient(135deg, #7c3aed, #8b5cf6); color: #fff; }
+#pizza .price             { color: #a78bfa; }
+#pizza .tag               { background: rgba(139,92,246,.12); color: #a78bfa; border: 1px solid rgba(139,92,246,.2); }
+#pizza:hover              { border-color: rgba(139,92,246,.45); box-shadow: 0 32px 80px rgba(139,92,246,.10); }
+
+#wrap .card-banner        { background: linear-gradient(135deg, rgba(217,119,6,.18), rgba(245,158,11,.06)); border-bottom: 1px solid rgba(245,158,11,.22); }
+#wrap .badge              { background: linear-gradient(135deg, #f59e0b, #fbbf24); color: #0a0f1e; font-weight: 800; }
+#wrap .price              { color: #fbbf24; }
+#wrap .tag                { background: rgba(245,158,11,.12); color: #fcd34d; border: 1px solid rgba(245,158,11,.2); }
+#wrap:hover               { border-color: rgba(245,158,11,.45); box-shadow: 0 32px 80px rgba(245,158,11,.10); }
 
 #juice .card-banner       { background: linear-gradient(135deg, rgba(22,163,74,.18), rgba(34,197,94,.06)); border-bottom: 1px solid rgba(34,197,94,.22); }
 #juice .badge             { background: #22c55e; color: #fff; }
 #juice .price             { color: #4ade80; }
 #juice .tag               { background: rgba(34,197,94,.12); color: #4ade80; border: 1px solid rgba(34,197,94,.2); }
 #juice:hover              { border-color: rgba(34,197,94,.45); box-shadow: 0 32px 80px rgba(34,197,94,.10); }
-
-#pizza-burger .card-banner { background: linear-gradient(135deg, rgba(220,38,38,.18), rgba(244,63,94,.06)); border-bottom: 1px solid rgba(244,63,94,.22); }
-#pizza-burger .badge       { background: linear-gradient(135deg, #ef4444, #f43f5e); color: #fff; }
-#pizza-burger .price       { color: #f87171; }
-#pizza-burger .tag         { background: rgba(239,68,68,.12); color: #f87171; border: 1px solid rgba(239,68,68,.2); }
-#pizza-burger:hover        { border-color: rgba(239,68,68,.45); box-shadow: 0 32px 80px rgba(239,68,68,.10); }
-
-#chicken .card-banner     { background: linear-gradient(135deg, rgba(217,119,6,.18), rgba(245,158,11,.06)); border-bottom: 1px solid rgba(245,158,11,.22); }
-#chicken .badge           { background: linear-gradient(135deg, #f59e0b, #fbbf24); color: #0a0f1e; font-weight: 800; }
-#chicken .price           { color: #fbbf24; }
-#chicken .tag             { background: rgba(245,158,11,.12); color: #fcd34d; border: 1px solid rgba(245,158,11,.2); }
-#chicken:hover            { border-color: rgba(245,158,11,.45); box-shadow: 0 32px 80px rgba(245,158,11,.10); }
 
 /* ── Card banner ── */
 .card-banner {
